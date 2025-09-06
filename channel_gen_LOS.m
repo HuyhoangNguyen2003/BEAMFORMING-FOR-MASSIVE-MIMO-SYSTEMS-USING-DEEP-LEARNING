@@ -50,7 +50,7 @@ AoA_all = zeros(ITER, Num_paths);
 AoD_all = zeros(ITER, Num_paths);
 alpha_all = zeros(ITER, Num_paths); 
 
-for iter=1:1:ITER % Vòng lặp chính, dựa trên bài báo của Alkhateeb)
+for iter=1:1:ITER
     if mod(iter,100)==0 
         iter 
     end
@@ -198,7 +198,7 @@ for iter=1:1:ITER % Vòng lặp chính, dựa trên bài báo của Alkhateeb)
     sin_AoA_est = sin_theta_grid_MS(KM_final + 1);
 
     for l=1:1:Num_paths_est
-        % Tái tạo vector lái tia bằng chính giá trị sin() đã tra cứu
+
         Abh_est(:,l) = sqrt(1/Num_BS_Antennas)*exp(1j*pi*sin_AoD_est(l)*BSAntennas_Index.');
         Amh_est(:,l) = sqrt(1/Num_MS_Antennas)*exp(1j*pi*sin_AoA_est(l)*MSAntennas_Index.');
         
