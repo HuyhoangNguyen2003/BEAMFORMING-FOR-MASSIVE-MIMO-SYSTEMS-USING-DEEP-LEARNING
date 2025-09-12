@@ -61,7 +61,9 @@ To run this project, you will need both MATLAB and a Python environment with the
 1. Set Up the Environment
 - Install Python Libraries: Open your terminal or command prompt and install the necessary Python libraries using the requirements.txt file.
 
-    pip install -r requirements.txt
+  '''
+  pip install -r requirements.txt
+  '''
 
 - Ensure MATLAB is Installed: Confirm that you have MATLAB installed on your system, as it's required to generate the project's data.
 
@@ -72,7 +74,7 @@ This process will create the data files needed for the deep learning model.
 
 3. Train and Test the Model
 Launch Jupyter: In your terminal, navigate to the project directory and start the Jupyter Notebook server.
-
-    jupyter notebook
-
+   '''
+   jupyter notebook
+   '''
 Open and Run Notebooks: In your web browser, open the Jupyter Notebook interface and run the .ipynb files sequentially to train and test the model.
