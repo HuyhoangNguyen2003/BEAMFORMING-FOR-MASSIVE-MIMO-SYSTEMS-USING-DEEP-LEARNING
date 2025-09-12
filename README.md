@@ -1,8 +1,8 @@
-**Beamforming for Massive MIMO Systems using Deep Learning**
+# **Beamforming for Massive MIMO Systems using Deep Learning**
 
-Short Description: Graduation thesis that proposes a deep learning-based solution to optimize analog beamforming in Massive MIMO systems, with the goal of enhancing spectral efficiency for next-generation wireless networks.
+Description: Graduation thesis that proposes a deep learning-based solution to optimize analog beamforming in Massive MIMO systems, with the goal of enhancing spectral efficiency for next-generation wireless networks.
 
-**Table of Contents**
+## **Table of Contents**
 1. Introduction
 
 2. Project Structure
@@ -55,7 +55,7 @@ This thesis proposes a Deep Learning-based solution to optimize analog beamformi
 
   + A list of Python libraries (refer to requirements.txt)
 ----------------------------------------------------------------
-**Installation and Usage**
+## **Installation and Usage**
 To run this project, you will need both MATLAB and a Python environment with the specified libraries.
 
 1. Set Up the Environment
